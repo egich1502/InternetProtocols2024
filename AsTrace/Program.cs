@@ -8,6 +8,6 @@ class Program
     {
         Parser.Default.ParseArguments<Options>(args)
             .WithParsed(options => new AsTrace(options.Hostname, options.Wait, options.Hops).DoWork())
-            .WithNotParsed(er => Console.WriteLine(string.Join(Environment.NewLine, er)));
+            .WithNotParsed(er => Console.Write(Environment.NewLine));
     }
 }
