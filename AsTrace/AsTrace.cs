@@ -3,15 +3,15 @@ using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 
-namespace AS;
+namespace AsTrace;
 
-public class ASTrace
+public class AsTrace
 {
     private readonly int timeout;
     private readonly int maxTtl;
     private readonly string hostname;
 
-    public ASTrace(string hostname, int timeout, int maxTtl)
+    public AsTrace(string hostname, int timeout, int maxTtl)
     {
         this.timeout = timeout;
         this.maxTtl = maxTtl;

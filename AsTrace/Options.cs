@@ -1,6 +1,6 @@
 using CommandLine;
 
-namespace AS;
+namespace AsTrace;
 
 public class Options
 {

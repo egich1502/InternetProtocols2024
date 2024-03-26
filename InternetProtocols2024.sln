@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortExplorer", "PortExplorer\PortExplorer.csproj", "{1CCDA695-A913-47C2-B4B1-5D63DB6570E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS", "AS\AS.csproj", "{45500F7B-B136-4444-935A-CF3DE65805A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsTrace", "AsTrace\AsTrace.csproj", "{45500F7B-B136-4444-935A-CF3DE65805A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
